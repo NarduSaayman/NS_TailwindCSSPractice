@@ -18,6 +18,7 @@ module.exports = {
         'secondary': '#6a6a6b',
         'glow': '#c1ddfa',
         'header': '#262828',
+        'card': '#fffffe',
       },
 
     },
