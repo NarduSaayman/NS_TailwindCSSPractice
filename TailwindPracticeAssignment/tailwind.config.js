@@ -6,7 +6,8 @@ module.exports = {
     extend: {
 
       fontFamily:{
-        poppins: ['Poppins', 'sans-serif']
+        poppins: ['Poppins', 'sans-serif'],
+        'PT-serif': ['PT Serif', 'serif']
        },
       gridTemplateRows: {
         home: `135px 1fr`,
