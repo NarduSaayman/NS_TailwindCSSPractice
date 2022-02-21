@@ -9,7 +9,7 @@ module.exports = {
         poppins: ['Poppins', 'sans-serif']
        },
       gridTemplateRows: {
-        home: `100px 1fr`,
+        home: `135px 1fr`,
       },
       colors:{
         'primary': '#0d6cff',

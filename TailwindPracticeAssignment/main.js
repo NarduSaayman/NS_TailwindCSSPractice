@@ -1,4 +1,5 @@
 import './style.css'
 
-import { randImg } from '@ngneat/falso';
+import { rand, randImg } from '@ngneat/falso';
 
+document.getElementById('aboutIMG').innerHTML = `<img src="${randImg(69)}" alt="random image"></img>`;
