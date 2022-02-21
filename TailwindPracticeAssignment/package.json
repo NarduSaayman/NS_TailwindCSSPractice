@@ -14,7 +14,6 @@
     "vite": "^2.8.0"
   },
   "dependencies": {
-    "@ngneat/falso": "^2.26.1",
-    "font-awesome": "^4.7.0"
+    "@ngneat/falso": "^2.26.1"
   }
 }

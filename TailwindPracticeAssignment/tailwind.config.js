@@ -19,6 +19,12 @@ module.exports = {
         'glow': '#c1ddfa',
         'header': '#262828',
         'card': '#fffffe',
+        'cardPink': '#fc9af5',
+        'cardOrange': '#fdc390',
+        'cardBlue': '#92e3ff',
+        'cardPurple': '#be9cff',
+        'cardRed': '#fd8c90',
+        'cardGreen': '#6eec6c',
       },
 
     },

@@ -5,14 +5,16 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind/CSS Practice Assignment</title>
+
+    <script src="https://kit.fontawesome.com/0c272da275.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="flex bg-body justify-center">
-      <div id="PageBody" class="lg:w-[60%] md:w-[80%] sm:w-[100%]">
+      <div id="PageBody" class="w-[100%] md:w-[80%] lg:w-[60%]">
 
         <div id="HomePage" class="grid grid-rows-home h-screen">
-          <div id="Header" class="mb-6 flex items-center justify-end">
-              <ul class="flex flex-row font-medium text-sm items-center gap-20">
+          <div id="Header" class="mb-6 flex items-center justify-center lg:justify-end">
+              <ul class="flex flex-row font-medium text-sm items-center gap-10 md:gap-20">
                 <li class="cursor-pointer text-secondary hover:text-primary">
                   Home
                 </li>
@@ -80,47 +82,64 @@
             <p class="font-medium text-secondary text-sm text-center pt-2">The point of using Lorem Ipsum is that it has.</p>
           </div>
 
-          <div id="ServicesCards" class="">
-            <div class=" bg-card shadow-2xl shadow-slate-200 w-72 h-60 rounded-3xl">
-              <div ></div>
-              <h3>Software Developemnt</h3>
-              <p>
-                It is a long established fact that a reader will be distracted by the readable content
+          <div id="ServicesCards" class="flex flex-row flex-wrap font-poppins justify-center ">
+            <div class=" bg-card shadow-2xl shadow-slate-200 w-72 h-64 rounded-3xl p-10 mt-20 mx-4">
+              <div class="w-16 h-16 rounded-full bg-cardPink table-cell align-middle text-center">
+                <i class="fa fa-laptop-code fa-2x text-card"></i>
+              </div>
+              <h3 class="font-bold text-header pt-6 pb-3">Software Developemnt</h3>
+              <p class="font-semibold text-secondary text-xs leading-[1.6]">
+                It is a long established fact that a reader will be distracted by the readable content.
               </p>
             </div>
 
-            <div>
-              <h3>System Application</h3>
-              <p>
-                It is a long established fact that a reader will be distracted by the readable content
+            <div class=" bg-card shadow-2xl shadow-slate-200 w-72 h-64 rounded-3xl p-10 mt-20 mx-4">
+              <div class="w-16 h-16 rounded-full bg-cardOrange table-cell align-middle text-center">
+                <i class="fa fa-sitemap fa-2x text-card"></i>
+              </div>
+              <h3 class="font-bold text-header pt-6 pb-3">System Application</h3>
+              <p class="font-semibold text-secondary text-xs leading-[1.6]">
+                It is a long established fact that a reader will be distracted by the readable content.
               </p>
             </div>
 
-            <div>
-              <h3>Network Solutions</h3>
-              <p>
-                It is a long established fact that a reader will be distracted by the readable content
+            <div class=" bg-card shadow-2xl shadow-slate-200 w-72 h-64 rounded-3xl p-10 mt-20 mx-4">
+              <div class="w-16 h-16 rounded-full bg-cardBlue table-cell align-middle text-center">
+                <i class="fa fa-cloud-download-alt fa-2x text-card"></i>
+              </div>
+              <h3 class="font-bold text-header pt-6 pb-3">Network Solutions</h3>
+              <p class="font-semibold text-secondary text-xs leading-[1.6]">
+                It is a long established fact that a reader will be distracted by the readable content.
               </p>
             </div>
 
-            <div>
-              <h3>A.I System</h3>
-              <p>
-                It is a long established fact that a reader will be distracted by the readable content
+            <div class=" bg-card shadow-2xl shadow-slate-200 w-72 h-64 rounded-3xl p-10 mt-20 mx-4">
+              <div class="w-16 h-16 rounded-full bg-cardPurple table-cell align-middle text-center">
+                <i class="fa fa-brain fa-2x text-card"></i>
+              </div>
+              <h3 class="font-bold text-header pt-6 pb-3">A.I System</h3>
+              <p class="font-semibold text-secondary text-xs leading-[1.6]">
+                It is a long established fact that a reader will be distracted by the readable content.
               </p>
             </div>
 
-            <div>
-              <h3>Web & App Development</h3>
-              <p>
-                It is a long established fact that a reader will be distracted by the readable content
+            <div class=" bg-card shadow-2xl shadow-slate-200 w-72 h-64 rounded-3xl p-10 mt-20 mx-4">
+              <div class="w-16 h-16 rounded-full bg-cardRed table-cell align-middle text-center">
+                <i class="fa fa-window-restore fa-2x text-card"></i>
+              </div>
+              <h3 class="font-bold text-header pt-6 pb-3">Web & App Developemnt</h3>
+              <p class="font-semibold text-secondary text-xs leading-[1.6]">
+                It is a long established fact that a reader will be distracted by the readable content.
               </p>
             </div>
 
-            <div>
-              <h3>IT Consultation</h3>
-              <p>
-                It is a long established fact that a reader will be distracted by the readable content
+            <div class=" bg-card shadow-2xl shadow-slate-200 w-72 h-64 rounded-3xl p-10 mt-20 mx-4">
+              <div class="w-16 h-16 rounded-full bg-cardGreen table-cell align-middle text-center">
+                <i class="fa fa-comments fa-2x text-card"></i>
+              </div>
+              <h3 class="font-bold text-header pt-6 pb-3">IT Consultation</h3>
+              <p class="font-semibold text-secondary text-xs leading-[1.6]">
+                It is a long established fact that a reader will be distracted by the readable content.
               </p>
             </div>
           </div>
