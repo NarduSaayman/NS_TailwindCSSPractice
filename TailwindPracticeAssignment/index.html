@@ -6,16 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind/CSS Practice Assignment</title>
   </head>
-  <body>
+  <body class="flex bg-body justify-center">
+    <div id="PageBody" class="w-[60%]">
 
-    <div id="HomePage" class="grid grid-rows-home h-screen">
-      <div id="Header" class="bg-slate-500">
+      <div id="HomePage" class="grid grid-rows-home h-screen">
+        <div id="Header" class="bg-body mb-6 flex items-center justify-end">
+            <ul class="flex flex-row font-medium text-sm items-center gap-20">
+              <li class="cursor-pointer hover:text-primary">
+                Home
+              </li>
+              <li class="cursor-pointer hover:text-primary">
+                About
+              </li>
+              <li class="cursor-pointer hover:text-primary">
+                Services
+              </li>
+              <li class="cursor-pointer hover:text-primary">
+                Team
+              </li>
+              <button class="bg-primary py-3 px-6 rounded-lg shadow-md shadow-glow text-white" >
+                Get Started
+              </button>
+            </ul>
+        </div>
 
+        <div id="Home" class="grid-cols-2 h-[30%] bg-slate-400">
+          <div class="flex py-10">
+            <h1 class="font-poppins font-bold leading-normal text-[40px] text-left w-[50vh]">Simplify your company systems with our IT Solutions</h1>
+          </div>
+        </div>
       </div>
 
-      <div id="Home" class="grid-cols-2 h-[30%] bg-slate-400">
-        <h1 class="text-5xl">Simplify your company solutions wiht our IT Solutions</h1>
-      </div>
+      <div id="services"></div>
 
 
 
