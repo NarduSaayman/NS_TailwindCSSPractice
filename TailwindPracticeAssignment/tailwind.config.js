@@ -16,6 +16,7 @@ module.exports = {
         'body': '#f0f0f0',
         'secondary': '#6a6a6b',
         'glow': '#c1ddfa',
+        'header': '#262828',
       },
 
     },
