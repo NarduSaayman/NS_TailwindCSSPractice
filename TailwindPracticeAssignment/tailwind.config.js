@@ -27,6 +27,9 @@ module.exports = {
         'cardRed': '#fd8c90',
         'cardGreen': '#6eec6c',
       },
+      boxShadow:{
+        'card-shadow': '0 0 20px 0 rgba(0,0,0,0.005)',
+      }
 
     },
   },
